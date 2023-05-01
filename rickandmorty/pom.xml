@@ -17,13 +17,6 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-<!-- 
-		<dependency>
-			<groupId>com.mydataharbor</groupId>
-			<artifactId>jdbc-postgresql-plugin</artifactId>
-			<version>2.0.2</version>
-			<type>pom</type>
-		</dependency> -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -50,6 +43,12 @@
                 <artifactId>postgresql</artifactId>
                 <version>42.6.0</version>
             </dependency>
+
+			<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.26</version>
+</dependency>
         
 		
 	</dependencies>
