@@ -46,7 +46,7 @@ public class RickController {
 
         Random rand = new Random();
 
-        return Math.round(rand.nextDouble(0, 11)) + "";
+        return Math.round(rand.nextDouble(0, 10)) + "";
 
     }
 
